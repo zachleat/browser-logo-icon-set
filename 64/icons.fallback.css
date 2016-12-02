@@ -18,9 +18,9 @@
 	background-image: url('png/edge.png');
 }
 
-
-.browserlogo-firefox {
-	background-image: url('png/firefox.png');
+.browserlogo-firefox,
+.browserlogo-firefox_64x64 {
+	background-image: url('png/firefox_64x64.png');
 }
 
 
