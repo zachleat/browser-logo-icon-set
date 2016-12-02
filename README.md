@@ -24,19 +24,19 @@ For your convenience we provide your choice of source image sizes:
 
 ### SVG / 64x64 PNG mix (Better for HDPI displays)
 
-* `64/icons.data.svg.css` (A-Grade SVG/PNG CSS sprite): 94.1KB (GZIP)
+`64/icons.data.svg.css` (A-Grade SVG/PNG CSS sprite): 94.1KB (GZIP)
 
 ### 64x64 PNG only
 
-* `64-png/icons.data.svg.css` (A-Grade PNG only CSS sprite): 57.09KB (GZIP)
+`64-png/icons.data.svg.css` (A-Grade PNG only CSS sprite): 57.09KB (GZIP)
 
 ### SVG / 128x128 PNG mix (Best for HDPI displays)
 
-* `128/icons.data.svg.css` (A-Grade SVG/PNG CSS sprite): 89.7KB (GZIP) (not including one 27KB icon that could not be embedded, see addendum #1)
+`128/icons.data.svg.css` (A-Grade SVG/PNG CSS sprite): 89.7KB (GZIP) (not including one 27KB icon that could not be embedded, see addendum #1)
 
 ### 128x128 PNG only
 
-* `128-png/icons.data.svg.css` (A-Grade PNG only CSS sprite): 117.92KB (GZIP) (not including one 27KB icon that could not be embedded, see addendum #1)
+`128-png/icons.data.svg.css` (A-Grade PNG only CSS sprite): 117.92KB (GZIP) (not including one 27KB icon that could not be embedded, see addendum #1)
 
 ## Addendum
 
