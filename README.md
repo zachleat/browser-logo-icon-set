@@ -4,7 +4,9 @@ This is a [grunticon](https://github.com/filamentgroup/grunticon/) icon set sour
 
 Grunticon example usage included in `usage.html`.
 
-## Includes
+## [Demo](https://zachleat.github.io/browser-logo-icon-set/usage.html)
+
+## Icons
 
 * Android Default Browser (_Bitmap_)
 * Chrome
