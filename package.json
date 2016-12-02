@@ -2,10 +2,6 @@
   "name": "browser-logo-icon-set",
   "version": "1.0.0",
   "description": "A CSS Sprite of Browser Logos",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/zachleat/browser-logo-icons.git"
