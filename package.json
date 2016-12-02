@@ -1,0 +1,24 @@
+{
+  "name": "browser-logo-icon-set",
+  "version": "1.0.0",
+  "description": "A CSS Sprite of Browser Logos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/zachleat/browser-logo-icons.git"
+  },
+  "author": "zachleat <zachleatherman@gmail.com> (http://zachleat.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zachleat/browser-logo-icons/issues"
+  },
+  "homepage": "https://github.com/zachleat/browser-logo-icons#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-grunticon": "^2.3.1",
+    "matchdep": "^1.0.1"
+  }
+}
