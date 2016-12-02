@@ -52,19 +52,18 @@ module.exports = function(grunt) {
 			"64": { // mix of SVG and PNG sources
 				files: [{
 					expand: true,
-					cwd: 'lib/alrra-browser-logos/',
 					src: [
-						"android/android_64x64.png",
-						"chrome/chrome.svg",
-						"edge/edge.svg",
-						"edge-tile/edge-tile.svg",
-						"firefox/firefox.svg",
-						"internet-explorer/internet-explorer_64x64.png",
-						"internet-explorer-tile/internet-explorer-tile.svg",
-						"opera/opera_64x64.png",
-						"opera-mini/opera-mini_64x64.png",
-						"safari/safari_64x64.png",
-						"safari-ios/safari-ios.svg"
+						"lib/alrra-browser-logos/android/android_64x64.png",
+						"lib/alrra-browser-logos/chrome/chrome.svg",
+						"lib/alrra-browser-logos/edge/edge.svg",
+						"lib/alrra-browser-logos/edge-tile/edge-tile.svg",
+						"lib/alrra-browser-logos/firefox/firefox.svg",
+						"src/svg/internet-explorer.svg",
+						"lib/alrra-browser-logos/internet-explorer-tile/internet-explorer-tile.svg",
+						"src/svg/opera.svg",
+						"lib/alrra-browser-logos/opera-mini/opera-mini_64x64.png",
+						"src/svg/safari.svg",
+						"lib/alrra-browser-logos/safari-ios/safari-ios.svg"
 					],
 					dest: "64/"
 				}],
@@ -72,10 +71,7 @@ module.exports = function(grunt) {
 					cssprefix: '.browserlogo-',
 					customselectors: {
 						"android_64x64": [ ".browserlogo-android" ],
-						"internet-explorer_64x64": [ ".browserlogo-internet-explorer" ],
-						"opera_64x64": [ ".browserlogo-opera" ],
-						"opera-mini_64x64": [ ".browserlogo-opera-mini" ],
-						"safari_64x64": [ ".browserlogo-safari" ],
+						"opera-mini_64x64": [ ".browserlogo-opera-mini" ]
 					},
 					template: "src/grunt-template.hbs"
 				}
@@ -120,19 +116,18 @@ module.exports = function(grunt) {
 			"128": { // mix of SVG and PNG sources
 				files: [{
 					expand: true,
-					cwd: 'lib/alrra-browser-logos/',
 					src: [
-						"android/android_128x128.png",
-						"chrome/chrome.svg",
-						"edge/edge.svg",
-						"edge-tile/edge-tile.svg",
-						"firefox/firefox.svg",
-						"internet-explorer/internet-explorer_128x128.png",
-						"internet-explorer-tile/internet-explorer-tile.svg",
-						"opera/opera_128x128.png",
-						"opera-mini/opera-mini_128x128.png",
-						"safari/safari_128x128.png",
-						"safari-ios/safari-ios.svg"
+						"lib/alrra-browser-logos/android/android_128x128.png",
+						"lib/alrra-browser-logos/chrome/chrome.svg",
+						"lib/alrra-browser-logos/edge/edge.svg",
+						"lib/alrra-browser-logos/edge-tile/edge-tile.svg",
+						"lib/alrra-browser-logos/firefox/firefox.svg",
+						"src/svg/internet-explorer.svg",
+						"lib/alrra-browser-logos/internet-explorer-tile/internet-explorer-tile.svg",
+						"src/svg/opera.svg",
+						"lib/alrra-browser-logos/opera-mini/opera-mini_128x128.png",
+						"src/svg/safari.svg",
+						"lib/alrra-browser-logos/safari-ios/safari-ios.svg"
 					],
 					dest: "128/"
 				}],
@@ -140,10 +135,7 @@ module.exports = function(grunt) {
 					cssprefix: '.browserlogo-',
 					customselectors: {
 						"android_128x128": [ ".browserlogo-android" ],
-						"internet-explorer_128x128": [ ".browserlogo-internet-explorer" ],
-						"opera_128x128": [ ".browserlogo-opera" ],
-						"opera-mini_128x128": [ ".browserlogo-opera-mini" ],
-						"safari_128x128": [ ".browserlogo-safari" ],
+						"opera-mini_128x128": [ ".browserlogo-opera-mini" ]
 					},
 					template: "src/grunt-template.hbs"
 				}
