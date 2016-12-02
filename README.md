@@ -1,8 +1,6 @@
 # browser-logo-icon-set
 
-This is a [grunticon](https://github.com/filamentgroup/grunticon/) icon set sourced from images provided by [alrra/browser-logos](https://github.com/alrra/browser-logos).
-
-Preferring vector images when available, currently with 2 bitmaps and 9 vector images.
+This is a [grunticon](https://github.com/filamentgroup/grunticon/) icon set sourced from images provided by [alrra/browser-logos](https://github.com/alrra/browser-logos). Preferring vector images when available, currently with 2 bitmaps and 9 vector images. Use care. These are pretty hefty. Make sure they’re important. Always load asynchronously.
 
 Grunticon example usage included in `usage.html`.
 
@@ -22,7 +20,7 @@ Grunticon example usage included in `usage.html`.
 
 ## Deliverables
 
-Your choice of source images sizes:
+For your convenience we provide your choice of source image sizes:
 
 ### SVG / 64x64 PNG mix (Better for HDPI displays)
 
