@@ -1,6 +1,6 @@
 # browser-logo-icon-set
 
-This is a [grunticon](https://github.com/filamentgroup/grunticon/) icon set sourced from images provided by [alrra/browser-logos](https://github.com/alrra/browser-logos). Preferring vector images when available, currently with 2 bitmaps and 9 vector images. Use care. These are pretty hefty. Make sure they’re important. Always load asynchronously.
+This is a [grunticon](https://github.com/filamentgroup/grunticon/) icon set sourced from images provided by [alrra/browser-logos](https://github.com/alrra/browser-logos). Preferring vector images when available, currently with 3 bitmaps and 8 vector images.  Always load asynchronously.
 
 Grunticon example usage included in `usage.html`.
 
@@ -10,7 +10,7 @@ Grunticon example usage included in `usage.html`.
 * Chrome
 * Edge
 * Edge (Tile)
-* Firefox
+* Firefox (_Bitmap, an SVG option was available but it was much too large_)
 * Internet Explorer
 * Internet Explorer (Tile)
 * Opera
@@ -22,21 +22,13 @@ Grunticon example usage included in `usage.html`.
 
 For your convenience we provide your choice of source image sizes:
 
-### SVG / 64x64 PNG mix (Better for HDPI displays)
+### Uses 64x64 PNG sources when SVG is not available
 
-`64/icons.data.svg.css` (A-Grade SVG/PNG CSS sprite): 94.1KB (GZIP)
+`64/icons.data.svg.css`: 33.15KB (GZIP)
 
-### 64x64 PNG only
+### Uses 128x128 PNG sources when SVG is not available
 
-`64-png/icons.data.svg.css` (A-Grade PNG only CSS sprite): 57.09KB (GZIP)
-
-### SVG / 128x128 PNG mix (Best for HDPI displays)
-
-`128/icons.data.svg.css` (A-Grade SVG/PNG CSS sprite): 89.7KB (GZIP) (not including one 27KB icon that could not be embedded, see addendum #1)
-
-### 128x128 PNG only
-
-`128-png/icons.data.svg.css` (A-Grade PNG only CSS sprite): 117.92KB (GZIP) (not including one 27KB icon that could not be embedded, see addendum #1)
+`128/icons.data.svg.css`: 42.45KB (GZIP) (not including one 27KB icon that could not be embedded, see addendum #1)
 
 ## Addendum
 
