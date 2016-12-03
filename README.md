@@ -1,8 +1,6 @@
 # browser-logo-icon-set
 
-This is a [grunticon](https://github.com/filamentgroup/grunticon/) icon set sourced from images provided by [alrra/browser-logos](https://github.com/alrra/browser-logos). Preferring vector images when available, currently with 3 bitmaps and 8 vector images.  Always load asynchronously.
-
-Grunticon example usage included in `usage.html`.
+This is a multi-color [grunticon](https://github.com/filamentgroup/grunticon/) icon set of web browser logos. Sourced from images provided by [alrra/browser-logos](https://github.com/alrra/browser-logos). Preferring vector images when available and when file size agrees.
 
 ## [Demo](https://zachleat.github.io/browser-logo-icon-set/usage.html)
 
@@ -12,7 +10,7 @@ Grunticon example usage included in `usage.html`.
 * Chrome
 * Edge
 * Edge (Tile)
-* Firefox (_Bitmap, an SVG option was available but it was much too large_)
+* Firefox (_Bitmap at 64x64, SVG at 128x128_)
 * Internet Explorer
 * Internet Explorer (Tile)
 * Opera
