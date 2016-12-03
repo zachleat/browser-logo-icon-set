@@ -48,7 +48,7 @@ module.exports = function(grunt) {
 						"lib/alrra-browser-logos/chrome/chrome.svg",
 						"lib/alrra-browser-logos/edge/edge.svg",
 						"lib/alrra-browser-logos/edge-tile/edge-tile.svg",
-						"lib/alrra-browser-logos/firefox/firefox_128x128.png", // has an svg, it’s just too large
+						"src/svg/firefox.svg",
 						"src/svg/internet-explorer.svg",
 						"lib/alrra-browser-logos/internet-explorer-tile/internet-explorer-tile.svg",
 						"src/svg/opera.svg",
