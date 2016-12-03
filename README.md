@@ -24,6 +24,10 @@ Grunticon example usage included in `usage.html`.
 
 For your convenience we provide your choice of source image sizes:
 
+### Uses 16x16 PNG sources only (for lowsrc defaults)
+
+`16/icons.data.svg.css`: 8.15KB (GZIP)
+
 ### Uses 64x64 PNG sources when SVG is not available
 
 `64/icons.data.svg.css`: 33.15KB (GZIP)
