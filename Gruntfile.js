@@ -12,6 +12,42 @@ module.exports = function(grunt) {
 		},
 
 		grunticon: {
+			"16": { // mix of SVG and PNG sources
+				files: [{
+					expand: true,
+					src: [
+						"lib/alrra-browser-logos/android/android_16x16.png",
+						"lib/alrra-browser-logos/chrome/chrome_16x16.png",
+						"lib/alrra-browser-logos/edge/edge_16x16.png",
+						"lib/alrra-browser-logos/edge-tile/edge-tile_16x16.png",
+						"lib/alrra-browser-logos/firefox/firefox_16x16.png",
+						"lib/alrra-browser-logos/internet-explorer/internet-explorer_16x16.png",
+						"lib/alrra-browser-logos/internet-explorer-tile/internet-explorer-tile_16x16.png",
+						"lib/alrra-browser-logos/opera/opera_16x16.png",
+						"lib/alrra-browser-logos/opera-mini/opera-mini_16x16.png",
+						"lib/alrra-browser-logos/safari/safari_16x16.png",
+						"lib/alrra-browser-logos/safari-ios/safari-ios_16x16.png"
+					],
+					dest: "16/"
+				}],
+				options: {
+					cssprefix: '.browserlogo-',
+					customselectors: {
+						"android_16x16": [ ".browserlogo-android" ],
+						"chrome_16x16": [ ".browserlogo-chrome" ],
+						"edge_16x16": [ ".browserlogo-edge" ],
+						"edge-tile_16x16": [ ".browserlogo-edge-tile" ],
+						"firefox_16x16": [ ".browserlogo-firefox" ],
+						"internet-explorer_16x16": [ ".browserlogo-internet-explorer" ],
+						"internet-explorer-tile_16x16": [ ".browserlogo-internet-explorer-tile" ],
+						"opera_16x16": [ ".browserlogo-opera" ],
+						"opera-mini_16x16": [ ".browserlogo-opera-mini" ],
+						"safari_16x16": [ ".browserlogo-safari" ],
+						"safari-ios_16x16": [ ".browserlogo-safari-ios" ]
+					},
+					template: "src/grunt-template.hbs"
+				}
+			},
 			"64": { // mix of SVG and PNG sources
 				files: [{
 					expand: true,
@@ -62,7 +98,6 @@ module.exports = function(grunt) {
 					cssprefix: '.browserlogo-',
 					customselectors: {
 						"android_128x128": [ ".browserlogo-android" ],
-						"firefox_128x128": [ ".browserlogo-firefox" ],
 						"opera-mini_128x128": [ ".browserlogo-opera-mini" ]
 					},
 					template: "src/grunt-template.hbs"
