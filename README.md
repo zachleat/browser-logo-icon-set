@@ -4,7 +4,11 @@ This is a multi-color [grunticon](https://github.com/filamentgroup/grunticon/) i
 
 ## [Demo](https://zachleat.github.io/browser-logo-icon-set/usage.html)
 
-## Icons
+## Browser Compatibility
+
+Same as [documented grunticon compatibility](https://github.com/filamentgroup/grunticon/#browser-testing-results-for-icon-output).
+
+## Included Icons
 
 * Android Default Browser (_Bitmap_)
 * Chrome
