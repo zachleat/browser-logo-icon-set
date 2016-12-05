@@ -32,11 +32,11 @@ For your convenience we provide your choice of source image sizes:
 
 ### Uses 64x64 PNG sources when SVG is not available
 
-`64/icons.data.svg.css`: 33.15KB (GZIP)
+`64/icons.data.svg.css`: 28.78KB (GZIP)
 
 ### Uses 128x128 PNG sources when SVG is not available
 
-`128/icons.data.svg.css`: 50.63KB (GZIP) (not including one 27KB icon that could not be embedded, see addendum #1)
+`128/icons.data.svg.css`: 46.27KB (GZIP) (not including one 27KB icon that could not be embedded, see addendum #1)
 
 ## Addendum
 
