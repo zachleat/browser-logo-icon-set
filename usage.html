@@ -6,11 +6,33 @@
 	<title>Browser Logo Icon Set</title>
 	<style>
 	.browserlogo {
+		position: relative;
 		display: inline-block;
 		width: 64px;
 		height: 64px;
 		background-size: 64px 64px;
 		text-indent: -9999px;
+	}
+	.browserlogo_version {
+		position: absolute;
+		right: 0;
+		bottom: 0;
+		display: inline-block;
+		width: 20px;
+		height: 20px;
+		font-size: .5em;
+		line-height: 20px;
+		text-indent: 0;
+		text-align: center;
+		color: #fff;
+		background-color: #333;
+		border-radius: 50%;
+		font-weight: 400;
+	}
+
+	/* Demo page */
+	body {
+		font-family: sans-serif;
 	}
 	</style>
 	<link href="16/icons.data.png.css" rel="stylesheet">
@@ -27,19 +49,23 @@
 
 	<p>In this example, 16x16 stretched lowsrc icons are available immediately and the higher resolution SVG (or 128x128 PNG) versions are lazy loaded.</p>
 	<p>
-		<b class="browserlogo browserlogo-android">Android</b>
-		<b class="browserlogo browserlogo-chrome">Chrome</b>
-		<b class="browserlogo browserlogo-edge-tile">Edge</b>
-		<b class="browserlogo browserlogo-edge">Edge</b>
-		<b class="browserlogo browserlogo-firefox">Firefox</b>
-		<b class="browserlogo browserlogo-internet-explorer-tile">Internet Explorer</b>
-		<b class="browserlogo browserlogo-internet-explorer">Internet Explorer</b>
-		<b class="browserlogo browserlogo-opera-mini">Opera Mini</b>
-		<b class="browserlogo browserlogo-opera">Opera</b>
-		<b class="browserlogo browserlogo-safari-ios">Mobile Safari</b>
-		<b class="browserlogo browserlogo-safari">Safari</b>
+		<b class="browserlogo browserlogo-android" title="Android">Android</b>
+		<b class="browserlogo browserlogo-chrome" title="Chrome">Chrome</b>
+		<b class="browserlogo browserlogo-edge-tile" title="Edge">Edge</b>
+		<b class="browserlogo browserlogo-edge" title="Edge">Edge</b>
+		<b class="browserlogo browserlogo-firefox" title="Firefox">Firefox</b>
+		<b class="browserlogo browserlogo-internet-explorer-tile" title="Internet Explorer">Internet Explorer</b>
+		<b class="browserlogo browserlogo-internet-explorer" title="Internet Explorer">Internet Explorer</b>
+		<b class="browserlogo browserlogo-opera-mini" title="Opera Mini">Opera Mini</b>
+		<b class="browserlogo browserlogo-opera" title="Opera">Opera</b>
+		<b class="browserlogo browserlogo-safari-ios" title="Mobile Safari">Mobile Safari</b>
+		<b class="browserlogo browserlogo-safari" title="Safari">Safari</b>
 	</p>
 
 	<p>This is a demo page for the <a href="https://github.com/zachleat/browser-logo-icon-set">browser-logo-icon-set</a> project.</p>
+
+	<h2>with version number flags</h2>
+	<b class="browserlogo browserlogo-safari-ios" title="Mobile Safari 9 and below">Mobile Safari <span class="browserlogo_version">≤ 9</span></b>
+	<b class="browserlogo browserlogo-safari" title="Safari 10">Safari<span class="browserlogo_version">10</span></b>
 </body>
 </html>
