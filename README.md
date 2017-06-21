@@ -4,6 +4,12 @@ This is a multi-color [grunticon](https://github.com/filamentgroup/grunticon/) i
 
 ## [Demo](https://zachleat.github.io/browser-logo-icon-set/usage.html)
 
+## Installation
+
+Available on [NPM](https://www.npmjs.com/package/browser-logo-icon-set):
+
+`npm install browser-logo-icon-set`
+
 ## Browser Compatibility
 
 Same as [documented grunticon compatibility](https://github.com/filamentgroup/grunticon/#browser-testing-results-for-icon-output).
